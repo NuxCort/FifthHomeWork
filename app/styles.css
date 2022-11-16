@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  background-color: white;
+  margin: 10px;
+}
+
+img {
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 50%;
+}
+
+p, h1, h2, h3 {
+  text-align: center;
+}
+
+.header h2, p {
+  text-align: left;
+  padding-left: 60px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.mainBody {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+}
+
+.offers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  border: 1px solid green;
+}
+.offers .offer1, .offers .offer2, .offers .offer3 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+
+.aboutOffer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid yellow;
+}
+.aboutOffer .textOffer p {
+  max-width: 400px;
+}/*# sourceMappingURL=styles.css.map */
